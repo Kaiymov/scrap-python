@@ -37,13 +37,6 @@ def get_data(urls):
         row += 1
 
         file_save += 1
-        with open('bot_send.txt', 'w') as file:
-            file = f'{file.write(str(file_save))}\n'
-
-        print(file_save)
-
-
-
 
     # SAVE EXEL FILE
     book.save('seconom24.xlsx')
