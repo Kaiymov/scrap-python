@@ -8,7 +8,6 @@ ua = UserAgent()
 
 
 def get_data(urls):
-    global how_many
     file_save = 0
     # WRITE NEW EXEL FILE
     row = 2
@@ -37,6 +36,7 @@ def get_data(urls):
         row += 1
 
         file_save += 1
+        print(file_save)
 
     # SAVE EXEL FILE
     book.save('seconom24.xlsx')
